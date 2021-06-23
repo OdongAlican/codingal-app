@@ -1,5 +1,5 @@
 .navbar-section {
-    border: 1px solid cyan;
+    border: 1px solid #CDCDCD;
     display: flex;
     align-items: center;
     font-size: 14px;
@@ -30,4 +30,35 @@
 .timer-section {
     margin-left: auto;
     margin-right: 10px;
+}
+
+.hide-component {
+    display: none;
+}
+
+.smaller-image-section {
+    height: 20px;
+    padding: 10px;
+    background-image: url('https://cdn.codingal.com/images/logos/logos-main/logo-with-text.svg');
+    background-repeat: no-repeat;
+    background-size: 150px;
+    width: 150px;
+}
+
+.smaller-icon-section {
+    margin-left: auto;
+}
+
+.smaller-icon-section i {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.nav-modal-pop {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 50%;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.8);
 }
