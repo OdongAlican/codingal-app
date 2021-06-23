@@ -14,10 +14,10 @@ export const successfullPostFetch = (data: PostData[]) => (
   }
 );
 
-export const fetchPostRequest = () => async (dispatch: any) => {
+export const fetchPostRequest = (pageNumber: number) => async (dispatch: any) => {
   try {
     dispatch({ type: LOADING_REQUEST, payload: 'Fetching Resource' });
-    const response = await axios.get('https://jsonplaceholder.typicode.com/posts?_limit=3');
+    const response = await axios.get(`https://jsonplaceholder.typicode.com/posts?_page=${pageNumber}&size=10`);
     console.log(response.data);
     dispatch(successfullPostFetch(response.data));
   } catch (error) {
