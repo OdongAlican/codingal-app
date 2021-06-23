@@ -3,8 +3,11 @@
 /* eslint-disable import/extensions */
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './index.css';
-import { ButtonProps, TextAreaProps } from '../Interface/Interface';
+import {
+  ButtonProps, TextAreaProps, LinkProps, PostData,
+} from '../Interface/Interface';
 
 export const Button: React.FC<ButtonProps> = ({
   name, clickButton, bgColor, textColor,
@@ -28,4 +31,37 @@ export const TextArea: React.FC<TextAreaProps> = ({ value, name, changedValue })
     onChange={e => changedValue(e.target.value)}
     placeholder="Type Here"
   />
+);
+
+export const SectionLink: React.FC<LinkProps> = ({ path, name }) => (
+  <Link
+    to={`${path}`}
+  >
+    {name}
+  </Link>
+);
+
+export const PostDisplay: React.FC<PostData> = ({ title, body }) => (
+  <div className="general-post-section">
+    <div className="top-post-title-section">
+      <div className="post-title-section">
+        Title
+        {' '}
+        :
+      </div>
+      <div className="post-title information">{title}</div>
+    </div>
+    <div className="lower-post-details-section">
+      <div className="post-details-header">
+        Details
+        {' '}
+        :
+      </div>
+      <div className="post-details-information">
+        {
+        body
+      }
+      </div>
+    </div>
+  </div>
 );
