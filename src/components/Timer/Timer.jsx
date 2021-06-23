@@ -38,18 +38,11 @@ const Timer = () => {
   const stopWatch = () => {
     clearInterval(timer);
     setTimer(false);
-
-    const duration = (parseInt(watch.toString().split(':')[0].trim())
-        + (parseInt(watch.toString().split(':')[1].trim()) / 60)
-        + (parseInt(watch.toString().split(':')[2].trim()) / 3600)).toFixed(2);
-    console.log(duration, 'information');
   };
 
   useEffect(() => {
     startWatch();
   }, []);
-
-  console.log(stopWatch, 'information');
 
   return { stopWatch, watch };
 };
