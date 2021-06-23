@@ -1,0 +1,28 @@
+.navbar-section {
+    border: 1px solid cyan;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 5px 20px;
+    color: #777;
+}
+
+.nav-image-section {
+    height: 32px;
+    width: 32px;
+    background-image: url('https://cdn.codingal.com/images/logos/logos-main/logo-with-text.svg');
+    background-size: 120px;
+}
+
+.horizontal-section {
+    width: 10px;
+    height: 60px;
+    border-left: 1px solid #CDCDCD;
+    margin: 0 20px;
+}
+
+.timer-section {
+    margin-left: auto;
+    margin-right: 10px;
+}
