@@ -19,3 +19,25 @@ textarea {
     font-weight: 600;
     border: 1px solid #dcdcdc;
 }
+
+a {
+    padding:  .5rem 0.5rem;
+    color: #444;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #F46F5F;
+}
+
+.general-post-section {
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.top-post-title-section {
+    display: flex;
+}
