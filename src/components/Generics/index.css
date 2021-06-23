@@ -36,8 +36,24 @@ a:hover {
     border-radius: 3px;
     margin: 20px;
     padding: 10px 20px;
+    font-size: 13px;
 }
 
 .top-post-title-section {
     display: flex;
+}
+
+.identification-section,
+.post-title-section,
+.post-details-header {
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.post-title-information {
+    margin-left: 10px;
+}
+
+.top-post-title-section {
+    margin-bottom: 5px;
 }
