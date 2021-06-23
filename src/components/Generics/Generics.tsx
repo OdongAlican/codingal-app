@@ -41,15 +41,21 @@ export const SectionLink: React.FC<LinkProps> = ({ path, name }) => (
   </Link>
 );
 
-export const PostDisplay: React.FC<PostData> = ({ title, body }) => (
+export const PostDisplay: React.FC<PostData> = ({ title, body, id }) => (
   <div className="general-post-section">
+    <div className="identification-section">
+      Post Id
+      {' '}
+      :
+      <span>{id}</span>
+    </div>
     <div className="top-post-title-section">
       <div className="post-title-section">
         Title
         {' '}
         :
       </div>
-      <div className="post-title information">{title}</div>
+      <div className="post-title-information">{title}</div>
     </div>
     <div className="lower-post-details-section">
       <div className="post-details-header">
