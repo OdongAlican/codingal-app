@@ -1,0 +1,82 @@
+.modal-display-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+}
+
+.inner-modal-content {
+    background-color: #fff;
+    padding: 20px;
+    width: 35%;
+    position: relative;
+    border-radius: 3px;
+}
+
+.fa-times-circle {
+    cursor: pointer;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.each-class-section {
+    display: flex;
+    margin: 15px;
+}
+
+.class-icon-section i {
+    color: red;
+    font-size: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.class-link {
+    color: #777;
+    padding: 5px 0;
+    list-style: none;
+    font-weight: bold;
+}
+
+.class-dropdown {
+    margin: 10px;
+}
+
+.icon-title-section {
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    display: flex;
+}
+
+.class-label {
+    font-size: 12px;
+    margin-left: 10px;
+}
+
+.routes-section {
+    width: 60%;
+    padding-left: 10px;
+}
+
+.lower-buttons-section {
+    display: flex;
+}
+
+.fa-check-circle {
+    color: #F35742;
+}
