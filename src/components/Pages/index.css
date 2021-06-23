@@ -2,3 +2,11 @@
 .display-home-section {
     margin-top: 90px;
 }
+
+.loading-section,
+.error-section {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
