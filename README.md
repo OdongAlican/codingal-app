@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Live Version 
-- [Live Link](https://trackingappk.herokuapp.com/)
+- [Live Link](https://codingal-app.web.app/posts)
 
 ## Video Description Link
 - [Video](https://www.loom.com/share/adf35c8e794d4a17b97ab95a35a834c0)
@@ -11,8 +11,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## App Images
 ![First Image](public/desktop.png)
 ![Second Image](public/mobile.png)
-![Second Image](public/mobileOne.png)
-![Second Image](public/mobileTwo.png)
+![Second Image](public/modalOne.png)
+![Second Image](public/modalTwo.png)
 
 
 ## Available Scripts
