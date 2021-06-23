@@ -6,6 +6,11 @@
     font-weight: 600;
     padding: 5px 20px;
     color: #777;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fff;
 }
 
 .nav-image-section {
