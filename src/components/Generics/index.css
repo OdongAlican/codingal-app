@@ -1,0 +1,21 @@
+button {
+    padding: .5rem 2.5rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #F46F5F;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+textarea {
+    height: 35px;
+    padding: 10px;
+    width: 100%;
+    outline: none;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    border: 1px solid #dcdcdc;
+}
