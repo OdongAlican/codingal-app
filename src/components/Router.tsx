@@ -1,11 +1,13 @@
-import React from 'react';
+/* eslint-disable import/extensions */
 
-const Router = () => {
-  return (
-    <div>
-      <p>Router section</p>
-    </div>
-  )
-}
+import React from 'react';
+import Navbar from './Navbar/Navbar';
+
+const Router = () => (
+  <div>
+    <Navbar />
+    <p>Router section</p>
+  </div>
+);
 
 export default Router;
