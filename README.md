@@ -5,9 +5,6 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Live Version 
 - [Live Link](https://codingal-app.web.app/posts)
 
-## Video Description Link
-- [Video](https://www.loom.com/share/adf35c8e794d4a17b97ab95a35a834c0)
-
 ## App Images
 ![First Image](public/desktop.png)
 ![Second Image](public/mobile.png)
